@@ -1,0 +1,43 @@
+{
+    "model": "RandomForestClassifier",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "random_state": 42,
+    "dataset_rows": 600,
+    "classes": {
+        "0": "original",
+        "1": "exact_copy",
+        "2": "paraphrased",
+        "3": "partial_copy",
+        "4": "unrelated"
+    },
+    "validation": {
+        "split": "Validation",
+        "accuracy": 0.9895833333333334,
+        "weighted_precision": 0.9900793650793651,
+        "weighted_recall": 0.9895833333333334,
+        "weighted_f1": 0.9895696000878927,
+        "macro_precision": 0.9904761904761905,
+        "macro_recall": 0.9894736842105264,
+        "macro_f1": 0.9897165458141067
+    },
+    "test": {
+        "split": "Final test",
+        "accuracy": 0.9916666666666667,
+        "weighted_precision": 0.9919999999999999,
+        "weighted_recall": 0.9916666666666667,
+        "weighted_f1": 0.9916630481980027,
+        "macro_precision": 0.992,
+        "macro_recall": 0.9916666666666668,
+        "macro_f1": 0.9916630481980026
+    },
+    "feature_importances": {
+        "semantic_similarity": 0.13036261873427724,
+        "word_overlap": 0.17188051077405728,
+        "sequence_overlap": 0.11123624713017485,
+        "length_ratio": 0.12105045673267964,
+        "shared_phrase_ratio": 0.1410183248333535,
+        "embedding_difference_mean": 0.1280330989702342,
+        "embedding_difference_std": 0.1087408124964456,
+        "embedding_difference_max": 0.08767793032877771
+    }
+}

@@ -1,0 +1,32 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Generated dependencies and build output
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+
+# Local uploads, sample submissions, and generated documents
+uploads/
+backend/uploads/
+*.pdf
+*.docx
+/test_submission.*
+/backend/test_submission*.txt
+
+# Local backups and system files
+*.bak
+*.save
+*.before-ui-restore
+.DS_Store
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log

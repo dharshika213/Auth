@@ -1,0 +1,99 @@
+{
+  "model": "TF-IDF + Logistic Regression",
+  "dataset_rows": 60,
+  "training_rows": 45,
+  "test_rows": 15,
+  "accuracy": 0.266667,
+  "weighted_precision": 0.266667,
+  "weighted_recall": 0.266667,
+  "weighted_f1": 0.266667,
+  "labels": {
+    "0": "original",
+    "1": "exact_copy",
+    "2": "paraphrased",
+    "3": "partial_copy",
+    "4": "unrelated"
+  },
+  "confusion_matrix": [
+    [
+      1,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "classification_report": {
+    "original": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.3333333333333333,
+      "support": 3.0
+    },
+    "exact_copy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "paraphrased": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "partial_copy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "unrelated": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "accuracy": 0.26666666666666666,
+    "macro avg": {
+      "precision": 0.26666666666666666,
+      "recall": 0.26666666666666666,
+      "f1-score": 0.26666666666666666,
+      "support": 15.0
+    },
+    "weighted avg": {
+      "precision": 0.26666666666666666,
+      "recall": 0.26666666666666666,
+      "f1-score": 0.26666666666666666,
+      "support": 15.0
+    }
+  }
+}

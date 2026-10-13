@@ -1,0 +1,6 @@
+,original,exact_copy,paraphrased,partial_copy,unrelated
+original,24,0,0,0,0
+exact_copy,0,24,0,0,0
+paraphrased,0,0,23,1,0
+partial_copy,0,0,0,24,0
+unrelated,0,0,0,0,24
